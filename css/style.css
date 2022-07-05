@@ -13,18 +13,23 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+   color: dimgray;
+}
 section{
     display: flex;
-   
+   /* height: 500px;
+   padding-bottom: 150px; */
 }
 .half-width
 {
-    width: 50%;
+    width: 40%;
     margin-left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
-.half-width img{
+
+img{
     width: 80%;
 }
 .top-banner{
@@ -41,3 +46,12 @@ a{
     font-size: 20px;
     font-weight: 700;
 }
+
+.middle-section{
+    background-image: url(../images/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right;
+}
+
