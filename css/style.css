@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.my-name{
+    color: orangered;
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    display: flex;
+   
+}
+.half-width
+{
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    padding: 10px 50px;
+    background-image: linear-gradient(orange,tomato);
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
